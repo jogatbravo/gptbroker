@@ -1,0 +1,29 @@
+{
+  "name": "gpt-broker",
+  "version": "1.0.0",
+  "description": "API so that we don't need to expose our GPT token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'There is a testing framework in the test-gpt-broker folder'"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Arman Drismir",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@supabase/supabase-js": "^2.45.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-jwt": "^4.0.4",
+    "koa-router": "^12.0.1",
+    "openai": "^4.55.7",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "prom-client": "^15.1.3",
+    "redis": "^4.7.0"
+  }
+}
